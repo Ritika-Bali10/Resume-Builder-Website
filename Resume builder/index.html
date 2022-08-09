@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Resume Builder| Best In India</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image" href="images/resumeLogo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" media =" screen and (max-width: 1397px)"href="css/phone.css">  -->
+
+    <link rel="stylesheet" href="css/all.css">
+    <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel = "stylesheet">
+    <!-- for using fontAWesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <!-- FOR FONT FAMILY -->
+</head>
+
+<body>
+
+    <!-- navigation bar======================================================================== -->
+    <nav id="navbar">
+        <div id="logo">
+            <img src="images/resumeLogo.png" alt="logo">
+        </div>
+
+        <div class="items">
+            <a href="#home">Home</a>
+            <a href="#res">Create Resume</a>
+            <a href="#extensions">Go to Templates</a>
+            <a href="#contact">Contact Us</a>
+            <form action="" class="form">
+                <input type="text" placeholder="Search" name="search">
+            </form>
+            <!-- font awesome icons for search and login -->
+            <div class="fontawe">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user" id="user"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home page ====================================================================================-->
+    <section id="home">
+        <h1 class="heading"> Job Seekers, You've Got Options!</h1>
+        <p id="para1">No Font issues. No Grammatical Errors. The safe and easiest way.</p>
+        <p id="para"> Build your brand-new Job worthy Resume in as little as 5 minutes.</p>
+           
+        <button class="btnhome"> Get Started</button>
+        
+    </section>
+
+
+    <!-- Variety of templates page==================================================================================== -->
+    <section id="extensions">
+        <div class="heading2">We Offer Variety Of Templates
+        </div>
+        <a href = "#transformid" >
+
+        <button class="shade"> Click Here For Best Templates >>></button> 
+        </a>
+
+        <div class="image">
+
+            <img src="images/creativeTemp.jpg" alt="temp1">
+            <div class="image-overlay">
+
+                <div class="image-title">Creative Resume Template</div>
+                <p class="image-para">FREE</p>
+                <button class="cart">USE FOR FREE</button>
+            </div>
+        </div>
+
+
+
+        <div class="image">
+
+            <img src="images/proffesionalTemp.jpg" alt="temp2">
+            <div class="image-overlay">
+
+                <div class="image-title">Professional Resume Template</div>
+               
+                <button class="cart">USE FOR FREE</button>
+            </div>
+        </div>
+
+
+        <div class="image">
+
+            <img src="images/collegeTemp.jpg" alt="temp3">
+            <div class="image-overlay">
+
+                <div class="image-title">College Resume Template</div>
+               
+                <button class="cart">USE FOR FREE</button>
+            </div>
+        </div>
+
+
+        <div class="image">
+
+            <img src="images/simpleTemp.jpg" alt="temp4">
+            <div class="image-overlay">
+
+                <div class="image-title">Simple Resume Template</div>
+                
+                <button class="cart">USE FOR FREE</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="clients">
+        <div class="client-heading">      
+        </div>
+        <h2 class="client-happy"> “Life isn’t perfect, but your Resume can be & we love to do it for you”</h2>
+
+    </section>
+
+    </section>
+
+    <section class="transformation" id = "transformid">
+        <h1 class="trans-heading">SELECT TEMPLATE</h1>
+        <div class="dabba ">
+          
+            <img src="images/template1.png" alt="temp1" class="photu">
+    
+                <img src="images/template2.png" alt="temp2"  class="photu">
+                <img src="images/template3.png" alt="temp3"  class="photu">
+                <img src="images/template4.png" alt="temp4"  class="photu">
+
+            <button class="more"> View More Templates>>></button> 
+        </div>
+      
+    </section>
+
+
+    <!-- TAKING DETAILS FROM USER======================================================================== -->
+    <div class = "resume" id="res">
+        <h1 class="resumeHead"> Fill Correct Details</h1>
+        <div class="resume-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" class="form-control"placeholder="Enter your name">
+                </div><br>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" class="form-control"placeholder="Enter your email">
+                </div><br>
+                <div class="form-group">
+                    <label for="phone">Contact No:</label>
+                    <input type="phone" name="name" id="phone" class="form-control"placeholder="Enter your Contact no.">
+                </div><br>
+                <!-- <div class="form-group"> 
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div><br>-->
+                <div class="form-group">
+                    <label for="DOB">Date Of Birth </label>
+                    <input type="date" name="name" id="DOB" class="form-control"max = "2022-06-20">
+                </div><br>
+
+                <div class="form-group">
+                    <label for="Address">Adress: </label>
+                    <textarea name="Address" id="Address" class="form-control"cols="5" rows="3"></textarea>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="pic">Select Your Profile Picture: </label>
+                    <input type="file" id = "imgField" class="form-control"name="name" id="pic" >
+                </div><br>
+
+            
+
+
+
+                <div class="form-group"  id ="we">
+                    <label for="work">Work Experience: </label>
+                    <textarea name="work" id="work" class="form-control workfield" cols="5" rows="3"
+                     placeholder="You Can Add Multiple Work Experiences:"></textarea>
+                
+                     <br>
+                     <div class ="form-group" id = "workAddbut">
+
+                        <button onclick="addWork()" type = "button" class = "addBtn"> ADD</button>
+                     </div>
+                </div><br>
+        
+
+
+
+
+
+                <div class="form-group"  id = "qe">
+                    <label for="qualification">Academic Qualifications: </label>
+                    <textarea name="qualification" id="qualification" class="form-control qualfield"cols="5" rows="3"
+                    placeholder=" Qualifications(PG/UG/Diploma/School):"></textarea>
+               
+                </div><br>
+            
+
+
+
+                <div class="form-group"  id = "se">
+                    <label for="Skills">Skills: </label>
+                    <textarea name="Skills" id="Skills" class="form-control sk"cols="5" rows="3"
+                    placeholder="Enter Your Skills(Technical/Non-Technical)"></textarea>
+               
+                </div><br>
+           
+        
+                <div class="form-group">
+                    <label for="achievements">Achievements/Certificates: </label>
+                    <input type="achievements" name="name" id="achievements" class=" form-control"placeholder="Add Achievements/Certificates">
+                </div><br>
+
+
+                <div class = "form-group">
+                 
+                    <a class = "a" href = "#cv">
+                    <button onclick = "generateCV()"  type = "button" class ="form-control"  id="generate" >Generate Resume</button>
+               </a>
+               
+                </div> 
+                
+               
+            </form>
+        
+        
+        </div>
+
+        
+    </div>
+   
+
+    <!-- this is the final CV template that has been created using bootstrap============================================ -->
+
+    <h1 class = "cvHead">Your Required Resume</h1> 
+    <div  class = "resume  newCV " id = "cv"  >
+<div class = "containerCV"  id = "template">
+     
+
+    <div class = "row">
+     
+        <div class = " col-md-4 text-center py-5 background" >
+            <!-- first col -->
+            <img src="images/profilePic.png" alt="pic" id="imgT" class = "img-fluid  myimg ">
+
+            <div class ="container">
+                <p id="nameT">Name</p>
+                <p id="emailT">Email</p>
+                <p id="contactT">Contact No.</p>
+                <p id="dobT">DOB</p>
+                <p id="addressT">Address</p>
+                
+
+            </div>
+        </div>
+    
+        <div class = "col-md-8 pyt-5">
+            <!-- second col -->
+            <h1 id = "nameT2" class = "text-center" style="font-weight: 950">Name</h1>
+
+            <div class="card mt-4">
+                <div class="card-header">
+                    <h4 class = " background2">Work Experiences</h4>
+                </div>
+                <div class="card-body"  id = "workT">
+                    <ul id =" ulT">
+                        <li>Add Work Experience no.1</li>
+                        <li>Add Work Experience no.2</li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <!-- qualification============== -->
+
+            
+            <div class="card mt-4">
+                <div class="card-header ">
+                    <h4 class=" background2" >Academic Qualifications</h4>
+                </div>
+                <div class="card-body" id = "qualT">
+                    <p>Enter Academic Qualification like: <b>PG: Delhi Technical University</b>
+                    83% <br> <b>Schooling:</b> Kendriya Vidhyalaya (12th)<br>89%</p>
+                </div>
+            </div>
+
+
+
+            <!--skills==========================================  -->
+
+
+
+            <div class="card mt-4">
+                <div class="card-header ">
+                    <h4 class=" background2" >Skills</h4>
+                </div>
+                <div class="card-body" id = "skT">
+                    <p>Add Skills like Time Management, Programming Languages Proficiency, Leadership Skills, Data Structures </p>
+                </div>
+            </div>
+
+   <!-- achievements====================================== -->
+
+
+   <div class="card mt-4">
+    <div class="card-header ">
+        <h4 class=" background2">Achievements/Certificates</h4>
+    </div>
+    <div class="card-body"  id = "achieveT">
+        <p>Enter Your Co-Curriculum Achievements or Academic Achievements. <br>Add any Certification of Course that you have done or Certificates of Events, Sports etc. </p>
+    </div>
+</div>
+ 
+
+        </div>
+
+         
+<div class = " container mt-2 text-center printClass">
+
+    <button onclick ="printCV()" type = "button " class = "btnprint"> <h1>Print Resume</h1></button>
+</div>
+
+    </div>
+
+</div>
+
+</div>
+
+    <h1 class="cont-heading">Contact Us</h1>
+    <section id="contact">
+        <!-- <h1 class="h-primary center">Contact Us</h1> -->
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div><br>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div><br>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div><br>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div><br>
+                <div class="form-group">
+                   
+                    <button class="lastbut">Submit Now</button>  
+                </div><br>
+            </form>
+        </div>
+
+        <h1 class="icon-heading"> STAY CONNECTED</h1>
+        <div class ="cont-icons">
+            <i class="fab fa-facebook   lastI"></i>
+            <i class="fab fa-twitter   lastI"></i>
+            <i class="fab fa-instagram   lastI"></i>
+            <i class="fab fa-youtube   lastI"></i>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.RitikaBaliProject.com. All rights reserved.
+        </div>
+    </footer>
+ 
+</body>
+
+<script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script src = "javaScript/script.js"></script>
+   
+</html>
